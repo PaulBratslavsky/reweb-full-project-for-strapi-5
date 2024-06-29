@@ -1,5 +1,6 @@
 {
   "extends": ["next/core-web-vitals", "plugin:tailwindcss/recommended"],
+  "rules": { "react/no-unescaped-entities": 0 },
   "settings": {
     /* Support tailwind rules inside class utility functions */
     "tailwindcss": {
