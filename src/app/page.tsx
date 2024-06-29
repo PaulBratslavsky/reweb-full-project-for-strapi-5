@@ -66,7 +66,7 @@ export default async function Home() {
   return (
     <div>
       {blocks ? blocks.map((block: any) => blockRenderer(block)) : null}
-      {/* <Testimonials />
+      <Testimonials />
       <Features />
       <FeaturesSection />
       <FeatureWithImageRight />
@@ -76,7 +76,7 @@ export default async function Home() {
       <Pricing />
       <TestimonialsSimple4 />
       <Faq />
-      <CtaSection /> */}
+      <CtaSection />
     </div>
   );
 }
