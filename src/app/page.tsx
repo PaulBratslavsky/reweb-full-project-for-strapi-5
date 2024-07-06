@@ -11,6 +11,7 @@ import { TestimonialsSimple2 } from "@/components/testimonials-simple-2";
 import { TestimonialsSimple3 } from "@/components/testimonials-simple-3";
 import { Pricing } from "@/components/pricing";
 import { TestimonialsSimple4 } from "@/components/testimonials-simple-4";
+import { FeaturedPosts } from "@/components/featured-posts";
 import { Faq } from "@/components/faq";
 import { CtaSection } from "@/components/cta-section";
 
@@ -66,17 +67,7 @@ export default async function Home() {
   return (
     <div>
       {blocks ? blocks.map((block: any) => blockRenderer(block)) : null}
-      <Testimonials />
-      <Features />
-      <FeaturesSection />
-      <FeatureWithImageRight />
-      <TestimonialsSimple />
-      <TestimonialsSimple2 />
-      <TestimonialsSimple3 />
-      <Pricing />
-      <TestimonialsSimple4 />
-      <Faq />
-      <CtaSection />
+      <FeaturedPosts />
     </div>
   );
 }
