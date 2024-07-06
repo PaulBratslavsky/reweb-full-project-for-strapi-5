@@ -2,18 +2,6 @@ import qs from "qs";
 import { getStrapiURL } from "@/lib/utils";
 
 import { Hero } from "@/components/hero";
-import { Testimonials } from "@/components/testimonials";
-import { Features } from "@/components/features";
-import { FeaturesSection } from "@/components/features-section";
-import { FeatureWithImageRight } from "@/components/feature-image-right";
-import { TestimonialsSimple } from "@/components/testimonials-simple";
-import { TestimonialsSimple2 } from "@/components/testimonials-simple-2";
-import { TestimonialsSimple3 } from "@/components/testimonials-simple-3";
-import { Pricing } from "@/components/pricing";
-import { TestimonialsSimple4 } from "@/components/testimonials-simple-4";
-import { FeaturedPosts } from "@/components/featured-posts";
-import { Faq } from "@/components/faq";
-import { CtaSection } from "@/components/cta-section";
 
 
 async function loader() {
